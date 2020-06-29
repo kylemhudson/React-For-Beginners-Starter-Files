@@ -4,8 +4,12 @@ class StorePicker extends React.Component {
     render() {
         return (
             <React.Fragment>
-            { /* This is how we comment */ }
-            <div>Here's where we enter our HTML</div>
+           <form className="store-selector">
+              <h2> Please enter your store name: 
+              </h2>
+               <input type="text" required placeholder="Enter name"/>
+               <button type="submit">Visit Store</button>
+           </form>
             </React.Fragment>
         )
     }
